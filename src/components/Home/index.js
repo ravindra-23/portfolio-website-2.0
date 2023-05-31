@@ -4,7 +4,6 @@ import LogoR from '../../assets/images/logo-r.png'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
 import Loader from 'react-loaders'
 
 const Home = () => {
@@ -67,7 +66,6 @@ const Home = () => {
 					<button className='flat-button'>CONTACT ME</button>
 				</Link>
 			</div>
-			<Logo />
 		</div>
 
 		<Loader type='pacman' />
